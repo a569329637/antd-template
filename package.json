@@ -43,7 +43,7 @@
     "lint"
   ],
   "scripts": {
-    "build": "atool-build",
+    "build": "atool-build -o ./bundles",
     "lint": "eslint --ext .js,.jsx src/",
     "lint:fix": "npm run lint -- --fix",
     "start": "dora -p 8001 --plugins \"webpack,hmr,proxy,livereload?enableJs=false&injectHost=127.0.0.1,browser-history?index=src/entries/index.html\"",
