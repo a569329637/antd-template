@@ -23,7 +23,7 @@ npm run start
 访问 [http://localhost:8989](http://localhost:8989)
 
 ## 编译代码
-具体编译后位置可以在package.json的script节点中修改build属性来指定。
+具体编译后位置可以在package.json的script节点中修改build属性来指定，这里是 ./bundles 目录。
 ```shell
 npm run build
 ```
